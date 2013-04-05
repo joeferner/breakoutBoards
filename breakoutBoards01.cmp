@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 05 Apr 2013 12:06:23 AM EDT
+
+BeginCmp
+TimeStamp = /515E2514;
+Reference = J1;
+ValeurCmp = CONN_25X1;
+IdModule  = PIN_ARRAY_12_13;
+EndCmp
+
+BeginCmp
+TimeStamp = /515E2523;
+Reference = J2;
+ValeurCmp = CONN_25X1;
+IdModule  = PIN_ARRAY_12_13;
+EndCmp
+
+BeginCmp
+TimeStamp = /515E2532;
+Reference = J3;
+ValeurCmp = CONN_25X1;
+IdModule  = PIN_ARRAY_12_13;
+EndCmp
+
+BeginCmp
+TimeStamp = /515E2541;
+Reference = J4;
+ValeurCmp = CONN_25X1;
+IdModule  = PIN_ARRAY_12_13;
+EndCmp
+
+BeginCmp
+TimeStamp = /515E20D1;
+Reference = U1;
+ValeurCmp = 100PIN;
+IdModule  = TQFP48-100;
+EndCmp
+
+EndListe
