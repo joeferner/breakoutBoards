@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /515E20D1;
 Reference = U1;
 ValeurCmp = 100PIN;
-IdModule  = TQFP48-100;
+IdModule  = QFP0.5mm;
 EndCmp
 
 EndListe

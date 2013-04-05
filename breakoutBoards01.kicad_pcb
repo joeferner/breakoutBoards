@@ -742,7 +742,7 @@
     )
   )
 
-  (module TQFP48-100 (layer F.Cu) (tedit 515ED2BC) (tstamp 515E44CB)
+  (module QFP0.5mm (layer F.Cu) (tedit 515ED2BC) (tstamp 515E44CB)
     (at 122.86 122.86)
     (path /515E20D1)
     (clearance 0.2)
