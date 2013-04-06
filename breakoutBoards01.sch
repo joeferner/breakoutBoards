@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 04 Apr 2013 11:25:23 PM EDT
+EESchema Schematic File Version 2  date Fri 05 Apr 2013 11:36:46 PM EDT
 LIBS:breakoutBoards
 LIBS:power
 LIBS:device
@@ -30,14 +30,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:breakoutBoards-cache
+LIBS:userFavorites
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "5 apr 2013"
+Date "6 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -300,4 +300,48 @@ Wire Wire Line
 	7600 2500 7500 2500
 Wire Wire Line
 	7500 2400 7600 2400
+$Comp
+L MECH M1
+U 1 1 515F97FA
+P 9050 1050
+F 0 "M1" H 9100 1050 60  0000 C CNN
+F 1 "Mounting Hole" H 9250 1050 60  0000 L CNN
+F 2 "" H 9050 1050 60  0000 C CNN
+F 3 "" H 9050 1050 60  0000 C CNN
+	1    9050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MECH M2
+U 1 1 515F9809
+P 9050 1150
+F 0 "M2" H 9100 1150 60  0000 C CNN
+F 1 "Mounting Hole" H 9250 1150 60  0000 L CNN
+F 2 "" H 9050 1150 60  0000 C CNN
+F 3 "" H 9050 1150 60  0000 C CNN
+	1    9050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MECH M3
+U 1 1 515F9818
+P 9050 1250
+F 0 "M3" H 9100 1250 60  0000 C CNN
+F 1 "Mounting Hole" H 9250 1250 60  0000 L CNN
+F 2 "" H 9050 1250 60  0000 C CNN
+F 3 "" H 9050 1250 60  0000 C CNN
+	1    9050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MECH M4
+U 1 1 515F9827
+P 9050 1350
+F 0 "M4" H 9100 1350 60  0000 C CNN
+F 1 "Mounting Hole" H 9250 1350 60  0000 L CNN
+F 2 "" H 9050 1350 60  0000 C CNN
+F 3 "" H 9050 1350 60  0000 C CNN
+	1    9050 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

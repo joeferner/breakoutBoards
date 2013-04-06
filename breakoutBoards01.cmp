@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 05 Apr 2013 12:06:23 AM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 05 Apr 2013 11:43:25 PM EDT
 
 BeginCmp
 TimeStamp = /515E2514;
@@ -26,6 +26,34 @@ TimeStamp = /515E2541;
 Reference = J4;
 ValeurCmp = CONN_25X1;
 IdModule  = PIN_ARRAY_12_13;
+EndCmp
+
+BeginCmp
+TimeStamp = /515F97FA;
+Reference = M1;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
+EndCmp
+
+BeginCmp
+TimeStamp = /515F9809;
+Reference = M2;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
+EndCmp
+
+BeginCmp
+TimeStamp = /515F9818;
+Reference = M3;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
+EndCmp
+
+BeginCmp
+TimeStamp = /515F9827;
+Reference = M4;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
 EndCmp
 
 BeginCmp
