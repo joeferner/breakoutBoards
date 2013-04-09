@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  04/09/2013 22:26:44
+PCBNEW-LibModule-V1  04/10/2013 00:21:21
 #encoding utf-8
 Units deci-mils
 $INDEX
@@ -13,6 +13,7 @@ SOT223
 QMONTRE
 HC-49V
 KBP
+SM0603_Resistor
 SOT23
 SOT363
 $EndINDEX
@@ -427,6 +428,45 @@ Ne 0 ""
 Po 4724 0
 $EndPAD
 $EndMODULE  KBP
+#
+# URL: http://kicadcloud.com/pcbModule/3512
+#
+$MODULE SM0603_Resistor
+Po 0 0 0 15 5051B21B 00000000 ~~
+Li SM0603_Resistor
+Sc 0
+AR
+Op 0 0 0
+At SMD
+T0 25 -25 197 180 900 45 N V 21 N "SM0603_resistor"
+T1 -669 0 200 180 900 45 N V 21 N "Val**"
+DS -197 -275 -475 -275 50 21
+DS -475 -275 -475 275 50 21
+DS -475 275 -197 275 50 21
+DS 475 -275 197 -275 50 21
+DS 475 -275 475 275 50 21
+DS 475 275 197 275 50 21
+$PAD
+Sh "1" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -300 0
+$EndPAD
+$PAD
+Sh "2" R 250 450 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 300 0
+$EndPAD
+$SHAPE3D
+Na "smd\\resistors\\R0603.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0.001
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SM0603_Resistor
 #
 # URL: http://kicadcloud.com/pcbModule/3543
 #

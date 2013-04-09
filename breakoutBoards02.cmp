@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 09 Apr 2013 02:31:35 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 09 Apr 2013 04:22:30 PM EDT
 
 BeginCmp
 TimeStamp = /51635A1E;
@@ -130,14 +130,14 @@ BeginCmp
 TimeStamp = /5164539D;
 Reference = D1;
 ValeurCmp = PGB1010603;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /516453AC;
 Reference = D2;
 ValeurCmp = PGB1010603;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jferner/dev/breakoutBoards/breakoutBoards02.sch)
-    (date "Tue 09 Apr 2013 02:03:44 PM EDT")
+    (date "Tue 09 Apr 2013 04:20:08 PM EDT")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref U2)
@@ -240,17 +240,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51648C31)))
   (libparts
-    (libpart (lib userFavorites) (part CPsmall)
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CPsmall))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib breakoutBoards) (part EEPROM_SPI)
       (fields
         (field (name Reference) U)
@@ -264,46 +253,65 @@
         (pin (num 4) (name CLK) (type input))
         (pin (num 5) (name CS) (type input))
         (pin (num 6) (name VCC) (type power_in))))
+    (libpart (lib breakoutBoards) (part ESD_SUPPRESSOR)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) ESD_SUPPRESSOR)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib userFavorites) (part CPsmall)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CPsmall)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib userFavorites) (part CRYSTAL)
       (fields
         (field (name Reference) X)
-        (field (name Value) CRYSTAL))
+        (field (name Value) CRYSTAL)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name ~) (type BiDi))
         (pin (num 2) (name ~) (type BiDi))))
-    (libpart (lib userFavorites) (part MECH)
-      (fields
-        (field (name Reference) M)
-        (field (name Value) MECH)))
-    (libpart (lib userFavorites) (part USB_2)
-      (fields
-        (field (name Reference) J)
-        (field (name Value) USB_2))
-      (pins
-        (pin (num 1) (name VBUS) (type input))
-        (pin (num 2) (name D-) (type input))
-        (pin (num 3) (name D+) (type input))
-        (pin (num 5) (name GND) (type input))
-        (pin (num 6) (name SHIELD) (type input))))
-    (libpart (lib userFavorites) (part LED)
+    (libpart (lib userFavorites) (part Csmall)
       (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
       (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
+        (field (name Reference) C)
+        (field (name Value) Csmall)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib userFavorites) (part FERRITEBEAD)
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FERRITEBEAD)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))))
     (libpart (lib userFavorites) (part FT232H)
       (fields
         (field (name Reference) U)
-        (field (name Value) FT232H))
+        (field (name Value) FT232H)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
         (pin (num 1) (name XCSI) (type input))
         (pin (num 2) (name XCS0) (type input))
@@ -352,24 +360,51 @@
         (pin (num 45) (name EECS) (type input))
         (pin (num 47) (name GND) (type input))
         (pin (num 48) (name GND) (type input))))
-    (libpart (lib userFavorites) (part Csmall)
+    (libpart (lib userFavorites) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib userFavorites) (part MECH)
+      (fields
+        (field (name Reference) M)
+        (field (name Value) MECH)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~)))
+    (libpart (lib userFavorites) (part Rsmall)
       (footprints
         (fp SM*)
-        (fp C?)
-        (fp C1-1))
+        (fp R?))
       (fields
-        (field (name Reference) C)
-        (field (name Value) Csmall))
+        (field (name Reference) R)
+        (field (name Value) Rsmall))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib userFavorites) (part FERRITEBEAD)
+    (libpart (lib userFavorites) (part USB_2)
       (fields
-        (field (name Reference) FB)
-        (field (name Value) FERRITEBEAD))
+        (field (name Reference) J)
+        (field (name Value) USB_2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
       (pins
-        (pin (num 1) (name 1) (type input))
-        (pin (num 2) (name 2) (type input))))
+        (pin (num 1) (name VBUS) (type input))
+        (pin (num 2) (name D-) (type input))
+        (pin (num 3) (name D+) (type input))
+        (pin (num 5) (name GND) (type input))
+        (pin (num 6) (name SHIELD) (type input))))
     (libpart (lib conn) (part CONN_12)
       (description "Symbole general de connecteur")
       (fields
@@ -389,31 +424,14 @@
         (pin (num 9) (name P9) (type passive))
         (pin (num 10) (name P10) (type passive))
         (pin (num 11) (name P11) (type passive))
-        (pin (num 12) (name P12) (type passive))))
-    (libpart (lib breakoutBoards) (part ESD_SUPPRESSOR)
-      (fields
-        (field (name Reference) D)
-        (field (name Value) ESD_SUPPRESSOR))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib userFavorites) (part Rsmall)
-      (footprints
-        (fp SM*)
-        (fp R?))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) Rsmall))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 12) (name P12) (type passive)))))
   (libraries
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical breakoutBoards)
       (uri breakoutBoards.lib))
     (library (logical userFavorites)
-      (uri userFavorites.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri userFavorites.lib)))
   (nets
     (net (code 1) (name "")
       (node (ref R12) (pin 2))
