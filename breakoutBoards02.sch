@@ -1,16 +1,16 @@
-EESchema Schematic File Version 2  date Tue 09 Apr 2013 02:02:06 PM EDT
+EESchema Schematic File Version 2  date Wed 10 Apr 2013 11:25:40 AM EDT
 LIBS:power
 LIBS:breakoutBoards
 LIBS:userFavorites
 LIBS:conn
 LIBS:breakoutBoards02-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 apr 2013"
+Date "10 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -108,7 +108,7 @@ F 3 "" H 6150 2000 60  0000 C CNN
 $EndComp
 Text Label 5700 3550 0    60   ~ 0
 RESET#
-Text Label 8800 4550 0    60   ~ 0
+Text Label 10050 4450 0    60   ~ 0
 RESET#
 $Comp
 L CRYSTAL X1
@@ -750,28 +750,6 @@ F 3 "" H 9400 4900 60  0000 C CNN
 	1    9400 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_12 P1
-U 1 1 51638B15
-P 10100 2700
-F 0 "P1" V 10050 2700 60  0000 C CNN
-F 1 "CONN_12" V 10150 2700 60  0000 C CNN
-F 2 "~" H 10100 2700 60  0000 C CNN
-F 3 "~" H 10100 2700 60  0000 C CNN
-	1    10100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_12 P2
-U 1 1 51639488
-P 10100 4000
-F 0 "P2" V 10050 4000 60  0000 C CNN
-F 1 "CONN_12" V 10150 4000 60  0000 C CNN
-F 2 "~" H 10100 4000 60  0000 C CNN
-F 3 "~" H 10100 4000 60  0000 C CNN
-	1    10100 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7300 5250 7300 5450
 Wire Wire Line
@@ -825,8 +803,6 @@ Wire Wire Line
 Connection ~ 6150 3550
 Wire Wire Line
 	6150 2000 6150 2200
-Wire Wire Line
-	8800 4550 9750 4550
 Wire Wire Line
 	6750 3750 5900 3750
 Wire Wire Line
@@ -968,8 +944,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 2000 8800 2250
 Wire Wire Line
-	8650 4250 9750 4250
-Wire Wire Line
 	8800 2450 8800 4250
 Wire Wire Line
 	7600 2000 7600 2350
@@ -1068,65 +1042,21 @@ Wire Wire Line
 	8250 6700 8250 6750
 Connection ~ 8250 6750
 Wire Wire Line
-	8650 4050 8950 4050
+	8650 4050 8850 4050
 Wire Wire Line
-	9750 2150 8800 2150
-Connection ~ 8800 2150
+	8650 2650 9850 2650
 Wire Wire Line
-	9400 2000 9400 2250
+	8650 2750 9850 2750
 Wire Wire Line
-	9400 2250 9750 2250
+	8650 2850 9850 2850
 Wire Wire Line
-	9200 2000 9200 2350
+	8650 2950 9850 2950
 Wire Wire Line
-	9200 2350 9750 2350
+	8650 3050 9850 3050
 Wire Wire Line
-	9000 2000 9000 2450
+	8650 3150 9850 3150
 Wire Wire Line
-	9000 2450 9750 2450
-Wire Wire Line
-	9400 4900 9400 2550
-Wire Wire Line
-	9400 2550 9750 2550
-Wire Wire Line
-	8650 2650 9750 2650
-Wire Wire Line
-	8650 2750 9750 2750
-Wire Wire Line
-	8650 2850 9750 2850
-Wire Wire Line
-	8650 2950 9750 2950
-Wire Wire Line
-	8650 3050 9750 3050
-Wire Wire Line
-	8650 3150 9750 3150
-Wire Wire Line
-	8650 3250 9750 3250
-Wire Wire Line
-	9750 3450 9050 3450
-Wire Wire Line
-	9050 3450 9050 3350
-Wire Wire Line
-	9050 3350 8650 3350
-Wire Wire Line
-	8650 3550 9750 3550
-Wire Wire Line
-	9750 3650 8650 3650
-Wire Wire Line
-	8650 3750 9750 3750
-Wire Wire Line
-	9750 3850 8650 3850
-Wire Wire Line
-	8650 3950 9750 3950
-Wire Wire Line
-	9150 4050 9750 4050
-Wire Wire Line
-	8650 4150 9750 4150
-Connection ~ 8800 4250
-Wire Wire Line
-	8650 4350 9750 4350
-Wire Wire Line
-	9750 4450 8650 4450
+	8650 3250 9850 3250
 $Comp
 L ESD_SUPPRESSOR D1
 U 1 1 5164539D
@@ -1173,9 +1103,9 @@ Wire Wire Line
 Wire Wire Line
 	5000 3850 4750 3850
 Connection ~ 4750 3850
-Text Label 9450 3950 0    60   ~ 0
+Text Label 10050 3950 0    60   ~ 0
 TXLED#
-Text Label 9450 3850 0    60   ~ 0
+Text Label 10050 3850 0    60   ~ 0
 RXLED#
 $Comp
 L LED D4
@@ -1457,12 +1387,149 @@ $EndComp
 $Comp
 L RSMALL R10
 U 1 1 51648C31
-P 9050 4050
-F 0 "R10" V 8995 4050 30  0000 C CNN
-F 1 "27R" V 9105 4050 30  0000 C CNN
-F 2 "" H 9050 4050 60  0000 C CNN
-F 3 "" H 9050 4050 60  0000 C CNN
-	1    9050 4050
+P 8950 4050
+F 0 "R10" V 8895 4050 30  0000 C CNN
+F 1 "27R" V 9005 4050 30  0000 C CNN
+F 2 "" H 8950 4050 60  0000 C CNN
+F 3 "" H 8950 4050 60  0000 C CNN
+	1    8950 4050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8650 3350 9850 3350
+$Comp
+L CONN_13 P1
+U 1 1 51656587
+P 10200 2750
+F 0 "P1" V 10160 2750 60  0000 C CNN
+F 1 "CONN_13" V 10270 2750 60  0000 C CNN
+F 2 "~" H 10200 2750 60  0000 C CNN
+F 3 "~" H 10200 2750 60  0000 C CNN
+	1    10200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_13 P2
+U 1 1 5165659E
+P 10800 3950
+F 0 "P2" V 10760 3950 60  0000 C CNN
+F 1 "CONN_13" V 10870 3950 60  0000 C CNN
+F 2 "~" H 10800 3950 60  0000 C CNN
+F 3 "~" H 10800 3950 60  0000 C CNN
+	1    10800 3950
+	1    0    0    -1  
+$EndComp
+Text Label 10050 3550 0    60   ~ 0
+ACBUS0
+Text Label 10050 3650 0    60   ~ 0
+ACBUS1
+Text Label 10050 3750 0    60   ~ 0
+ACBUS2
+Text Label 10050 4050 0    60   ~ 0
+ACBUS6
+Text Label 10050 4150 0    60   ~ 0
+ACBUS7
+Text Label 10050 4250 0    60   ~ 0
+ACBUS8
+Text Label 10050 4350 0    60   ~ 0
+ACBUS9
+Text Label 9450 2650 0    60   ~ 0
+ADBUS0
+Text Label 9450 2750 0    60   ~ 0
+ADBUS1
+Text Label 9450 2850 0    60   ~ 0
+ADBUS2
+Text Label 9450 2950 0    60   ~ 0
+ADBUS3
+Text Label 9450 3050 0    60   ~ 0
+ADBUS4
+Text Label 9450 3150 0    60   ~ 0
+ADBUS5
+Text Label 9450 3250 0    60   ~ 0
+ADBUS6
+Text Label 9450 3350 0    60   ~ 0
+ADBUS7
+Text Label 6400 3250 0    60   ~ 0
+USBDM
+Text Label 6400 3350 0    60   ~ 0
+USBDP
+Wire Wire Line
+	9100 4050 9100 2550
+Wire Wire Line
+	9100 2550 9850 2550
+Wire Wire Line
+	9400 2450 9400 4900
+Wire Wire Line
+	9400 2450 9850 2450
+Wire Wire Line
+	9850 2350 9000 2350
+Connection ~ 9000 2350
+Wire Wire Line
+	9200 2000 9200 2250
+Wire Wire Line
+	9200 2250 9850 2250
+Wire Wire Line
+	9400 2000 9400 2150
+Wire Wire Line
+	9400 2150 9850 2150
+Text Label 9450 2550 0    60   ~ 0
+ADBUSCLK
+Wire Wire Line
+	8650 4250 9300 4250
+Wire Wire Line
+	8900 2150 8800 2150
+Connection ~ 8800 2150
+Wire Wire Line
+	10450 3350 10400 3350
+Wire Wire Line
+	10400 3350 10400 2050
+Wire Wire Line
+	10400 2050 9000 2050
+Connection ~ 9000 2050
+Wire Wire Line
+	9000 2350 9000 2000
+Wire Wire Line
+	10450 3450 8900 3450
+Wire Wire Line
+	8900 3450 8900 2150
+Wire Wire Line
+	10450 3550 8650 3550
+Wire Wire Line
+	10450 3650 8650 3650
+Wire Wire Line
+	10450 3750 8650 3750
+Wire Wire Line
+	10450 3850 8650 3850
+Wire Wire Line
+	10450 3950 8650 3950
+Wire Wire Line
+	10450 4550 9400 4550
+Connection ~ 9400 4550
+Wire Wire Line
+	9050 4050 9100 4050
+Wire Wire Line
+	8650 4150 9200 4150
+Wire Wire Line
+	9200 4150 9200 4050
+Wire Wire Line
+	9200 4050 10450 4050
+Wire Wire Line
+	10450 4150 9300 4150
+Wire Wire Line
+	9300 4150 9300 4250
+Connection ~ 8800 4250
+Wire Wire Line
+	10450 4250 9500 4250
+Wire Wire Line
+	9500 4250 9500 4350
+Wire Wire Line
+	9500 4350 8650 4350
+Wire Wire Line
+	9600 4350 10450 4350
+Wire Wire Line
+	9600 4350 9600 4450
+Wire Wire Line
+	9600 4450 8650 4450
+Wire Wire Line
+	10450 4450 10050 4450
 $EndSCHEMATC
