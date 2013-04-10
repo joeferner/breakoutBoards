@@ -1,0 +1,265 @@
+EESchema Schematic File Version 2  date Wed 10 Apr 2013 06:50:03 PM EDT
+LIBS:breakoutBoards
+LIBS:breakoutBoards02-cache
+LIBS:userFavorites
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:breakoutBoards03-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "10 apr 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 48PIN U1
+U 1 1 5165D0D5
+P 2100 1950
+F 0 "U1" H 1750 3200 60  0000 C CNN
+F 1 "48PIN" H 1850 550 60  0000 C CNN
+F 2 "~" H 2450 3200 60  0000 C CNN
+F 3 "~" H 2450 3200 60  0000 C CNN
+	1    2100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_24X1 J1
+U 1 1 5165D24B
+P 1000 1950
+F 0 "J1" H 1050 3200 60  0000 C CNN
+F 1 "CONN_24X1" H 1250 600 60  0000 C CNN
+F 2 "~" H 1000 1500 60  0000 C CNN
+F 3 "~" H 1000 1500 60  0000 C CNN
+	1    1000 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_24X1 J2
+U 1 1 5165D258
+P 3200 1950
+F 0 "J2" H 3250 3200 60  0000 C CNN
+F 1 "CONN_24X1" H 3450 600 60  0000 C CNN
+F 2 "~" H 3200 1500 60  0000 C CNN
+F 3 "~" H 3200 1500 60  0000 C CNN
+	1    3200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VGA P2
+U 1 1 5165D90E
+P 5450 2100
+F 0 "P2" H 5450 3150 60  0000 L CNN
+F 1 "VGA" H 5450 1250 60  0000 L CNN
+F 2 "" H 5450 2200 60  0000 C CNN
+F 3 "" H 5450 2200 60  0000 C CNN
+	1    5450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_10X1 J3
+U 1 1 5165EBE6
+P 4300 1600
+F 0 "J3" H 4300 2150 60  0000 L CNN
+F 1 "CONN_10X1" H 4300 950 60  0000 L CNN
+F 2 "~" H 4300 1150 60  0000 C CNN
+F 3 "~" H 4300 1150 60  0000 C CNN
+	1    4300 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 850  1400 850 
+Wire Wire Line
+	1400 950  1300 950 
+Wire Wire Line
+	1300 1050 1400 1050
+Wire Wire Line
+	1400 1150 1300 1150
+Wire Wire Line
+	1300 1250 1400 1250
+Wire Wire Line
+	1400 1350 1300 1350
+Wire Wire Line
+	1300 1450 1400 1450
+Wire Wire Line
+	1400 1550 1300 1550
+Wire Wire Line
+	1300 1650 1400 1650
+Wire Wire Line
+	1400 1750 1300 1750
+Wire Wire Line
+	1300 1850 1400 1850
+Wire Wire Line
+	1400 1950 1300 1950
+Wire Wire Line
+	1400 2050 1300 2050
+Wire Wire Line
+	1300 2150 1400 2150
+Wire Wire Line
+	1400 2250 1300 2250
+Wire Wire Line
+	1300 2350 1400 2350
+Wire Wire Line
+	1400 2450 1300 2450
+Wire Wire Line
+	1300 2550 1400 2550
+Wire Wire Line
+	1400 2650 1300 2650
+Wire Wire Line
+	1300 2750 1400 2750
+Wire Wire Line
+	1400 2850 1300 2850
+Wire Wire Line
+	1300 2950 1400 2950
+Wire Wire Line
+	1400 3050 1300 3050
+Wire Wire Line
+	1300 3150 1400 3150
+Wire Wire Line
+	2800 3150 2900 3150
+Wire Wire Line
+	2900 3050 2800 3050
+Wire Wire Line
+	2800 2950 2900 2950
+Wire Wire Line
+	2800 2850 2900 2850
+Wire Wire Line
+	2900 2750 2800 2750
+Wire Wire Line
+	2800 2650 2900 2650
+Wire Wire Line
+	2900 2550 2800 2550
+Wire Wire Line
+	2800 2450 2900 2450
+Wire Wire Line
+	2900 2350 2800 2350
+Wire Wire Line
+	2800 2250 2900 2250
+Wire Wire Line
+	2900 2150 2800 2150
+Wire Wire Line
+	2800 2050 2900 2050
+Wire Wire Line
+	2900 1950 2800 1950
+Wire Wire Line
+	2800 1850 2900 1850
+Wire Wire Line
+	2900 1750 2800 1750
+Wire Wire Line
+	2800 1650 2900 1650
+Wire Wire Line
+	2900 1550 2800 1550
+Wire Wire Line
+	2800 1450 2900 1450
+Wire Wire Line
+	2900 1350 2800 1350
+Wire Wire Line
+	2800 1250 2900 1250
+Wire Wire Line
+	2900 1150 2800 1150
+Wire Wire Line
+	2800 1050 2900 1050
+Wire Wire Line
+	2900 950  2800 950 
+Wire Wire Line
+	2800 850  2900 850 
+Wire Wire Line
+	4600 1200 5150 1200
+Wire Wire Line
+	4600 1300 5150 1300
+Wire Wire Line
+	5150 1400 4600 1400
+Wire Wire Line
+	4600 1500 5150 1500
+Wire Wire Line
+	5150 1600 4600 1600
+Wire Wire Line
+	4600 1700 5150 1700
+Wire Wire Line
+	5150 1800 4600 1800
+Wire Wire Line
+	4600 1900 5150 1900
+Wire Wire Line
+	5150 2000 4600 2000
+Wire Wire Line
+	5150 2400 4850 2400
+Wire Wire Line
+	4850 2100 4850 2400
+Wire Wire Line
+	4850 2400 4850 2500
+Wire Wire Line
+	4850 2500 4850 2600
+Wire Wire Line
+	4850 2600 4850 2700
+Wire Wire Line
+	4850 2700 4850 2800
+Wire Wire Line
+	4850 2100 4600 2100
+Wire Wire Line
+	4850 2800 5150 2800
+Connection ~ 4850 2400
+Wire Wire Line
+	5150 2500 4850 2500
+Connection ~ 4850 2500
+Wire Wire Line
+	5150 2600 4850 2600
+Connection ~ 4850 2600
+Wire Wire Line
+	5150 2700 4850 2700
+Connection ~ 4850 2700
+Text Label 4650 2100 0    60   ~ 0
+VGAGND
+Text Label 4650 2000 0    60   ~ 0
+VGAID3
+Text Label 4650 1900 0    60   ~ 0
+VGAID2
+Text Label 4650 1800 0    60   ~ 0
+VGAID1
+Text Label 4650 1700 0    60   ~ 0
+VGAID0
+Text Label 4650 1600 0    60   ~ 0
+VGAVSYNC
+Text Label 4650 1500 0    60   ~ 0
+VGAHSYNC
+Text Label 4650 1400 0    60   ~ 0
+VGABLUE
+Text Label 4650 1300 0    60   ~ 0
+VGAGREEN
+Text Label 4650 1200 0    60   ~ 0
+VGARED
+$EndSCHEMATC

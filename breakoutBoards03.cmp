@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 10 Apr 2013 06:46:42 PM EDT
+
+BeginCmp
+TimeStamp = /5165D24B;
+Reference = J1;
+ValeurCmp = CONN_24X1;
+IdModule  = PIN_ARRAY_24X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5165D258;
+Reference = J2;
+ValeurCmp = CONN_24X1;
+IdModule  = PIN_ARRAY_24X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5165EBE6;
+Reference = J3;
+ValeurCmp = CONN_10X1;
+IdModule  = PIN_ARRAY_10X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5165D90E;
+Reference = P2;
+ValeurCmp = VGA;
+IdModule  = VGA_RIGHT_ANGLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5165D0D5;
+Reference = U1;
+ValeurCmp = 48PIN;
+IdModule  = TSSOP0.65;
+EndCmp
+
+EndListe
