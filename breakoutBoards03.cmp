@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 10 Apr 2013 08:51:19 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 10 Apr 2013 11:58:25 PM EDT
 
 BeginCmp
 TimeStamp = /5165D24B;
@@ -33,6 +33,27 @@ TimeStamp = /51660D90;
 Reference = J5;
 ValeurCmp = CONN_27X1;
 IdModule  = PIN_ARRAY_27X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516636A3;
+Reference = J6;
+ValeurCmp = CONN_3X1;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166346F;
+Reference = J7;
+ValeurCmp = AVRISP;
+IdModule  = AVR-ICSP;
+EndCmp
+
+BeginCmp
+TimeStamp = /516636B0;
+Reference = J8;
+ValeurCmp = CONN_3X1;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp

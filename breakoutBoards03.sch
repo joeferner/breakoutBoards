@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Apr 2013 08:52:05 PM EDT
+EESchema Schematic File Version 2  date Wed 10 Apr 2013 11:57:21 PM EDT
 LIBS:breakoutBoards
 LIBS:breakoutBoards02-cache
 LIBS:userFavorites
@@ -395,4 +395,73 @@ Wire Wire Line
 	9300 1500 9400 1500
 Wire Wire Line
 	9400 1400 9300 1400
+$Comp
+L AVRISP J7
+U 1 1 5166346F
+P 2950 5250
+F 0 "J7" H 2700 5550 60  0000 L CNN
+F 1 "AVRISP" H 2700 4950 60  0000 L CNN
+F 2 "" H 2700 5500 60  0000 C CNN
+F 3 "" H 2700 5500 60  0000 C CNN
+	1    2950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3X1 J6
+U 1 1 516636A3
+P 1800 6000
+F 0 "J6" H 1800 6250 60  0000 L CNN
+F 1 "CONN_3X1" H 1800 5750 60  0000 L CNN
+F 2 "~" H 1800 5550 60  0000 C CNN
+F 3 "~" H 1800 5550 60  0000 C CNN
+	1    1800 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_3X1 J8
+U 1 1 516636B0
+P 4300 6350
+F 0 "J8" H 4300 6600 60  0000 L CNN
+F 1 "CONN_3X1" H 4300 6100 60  0000 L CNN
+F 2 "~" H 4300 5900 60  0000 C CNN
+F 3 "~" H 4300 5900 60  0000 C CNN
+	1    4300 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5100 3600 5100
+Wire Wire Line
+	3600 5100 3600 5900
+Wire Wire Line
+	3600 5900 2100 5900
+Wire Wire Line
+	3500 5200 3700 5200
+Wire Wire Line
+	3700 5200 3700 6000
+Wire Wire Line
+	3700 6000 2100 6000
+Wire Wire Line
+	3500 5400 3800 5400
+Wire Wire Line
+	3800 5400 3800 6100
+Wire Wire Line
+	3800 6100 2100 6100
+Wire Wire Line
+	2400 5100 2200 5100
+Wire Wire Line
+	2200 5100 2200 6250
+Wire Wire Line
+	2200 6250 4000 6250
+Wire Wire Line
+	3500 5300 3900 5300
+Wire Wire Line
+	3900 5300 3900 6350
+Wire Wire Line
+	3900 6350 4000 6350
+Wire Wire Line
+	2400 5400 2300 5400
+Wire Wire Line
+	2300 5400 2300 6450
+Wire Wire Line
+	2300 6450 4000 6450
 $EndSCHEMATC
