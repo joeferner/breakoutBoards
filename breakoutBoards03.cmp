@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 10 Apr 2013 06:46:42 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 10 Apr 2013 08:51:19 PM EDT
 
 BeginCmp
 TimeStamp = /5165D24B;
@@ -22,6 +22,20 @@ IdModule  = PIN_ARRAY_10X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /51660D9D;
+Reference = J4;
+ValeurCmp = CONN_27X1;
+IdModule  = PIN_ARRAY_27X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51660D90;
+Reference = J5;
+ValeurCmp = CONN_27X1;
+IdModule  = PIN_ARRAY_27X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5165D90E;
 Reference = P2;
 ValeurCmp = VGA;
@@ -33,6 +47,13 @@ TimeStamp = /5165D0D5;
 Reference = U1;
 ValeurCmp = 48PIN;
 IdModule  = TSSOP0.65;
+EndCmp
+
+BeginCmp
+TimeStamp = /51660D6D;
+Reference = U2;
+ValeurCmp = 54PIN;
+IdModule  = TSOP54_0.8mm;
 EndCmp
 
 EndListe

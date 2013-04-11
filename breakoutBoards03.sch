@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Apr 2013 06:50:03 PM EDT
+EESchema Schematic File Version 2  date Wed 10 Apr 2013 08:52:05 PM EDT
 LIBS:breakoutBoards
 LIBS:breakoutBoards02-cache
 LIBS:userFavorites
@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 apr 2013"
+Date "11 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -219,15 +219,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 2400 4850 2400
 Wire Wire Line
-	4850 2100 4850 2400
-Wire Wire Line
-	4850 2400 4850 2500
-Wire Wire Line
-	4850 2500 4850 2600
-Wire Wire Line
-	4850 2600 4850 2700
-Wire Wire Line
-	4850 2700 4850 2800
+	4850 2100 4850 2800
 Wire Wire Line
 	4850 2100 4600 2100
 Wire Wire Line
@@ -262,4 +254,145 @@ Text Label 4650 1300 0    60   ~ 0
 VGAGREEN
 Text Label 4650 1200 0    60   ~ 0
 VGARED
+$Comp
+L 54PIN U2
+U 1 1 51660D6D
+P 8600 2500
+F 0 "U2" H 8250 3750 60  0000 C CNN
+F 1 "54PIN" H 8350 850 60  0000 C CNN
+F 2 "~" H 8950 3750 60  0000 C CNN
+F 3 "~" H 8950 3750 60  0000 C CNN
+	1    8600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_27X1 J5
+U 1 1 51660D90
+P 9700 2500
+F 0 "J5" H 9750 3750 60  0000 C CNN
+F 1 "CONN_27X1" H 9950 850 60  0000 C CNN
+F 2 "~" H 9700 2050 60  0000 C CNN
+F 3 "~" H 9700 2050 60  0000 C CNN
+	1    9700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_27X1 J4
+U 1 1 51660D9D
+P 7500 2500
+F 0 "J4" H 7550 3750 60  0000 C CNN
+F 1 "CONN_27X1" H 7750 850 60  0000 C CNN
+F 2 "~" H 7500 2050 60  0000 C CNN
+F 3 "~" H 7500 2050 60  0000 C CNN
+	1    7500 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1400 7900 1400
+Wire Wire Line
+	7900 1500 7800 1500
+Wire Wire Line
+	7800 1600 7900 1600
+Wire Wire Line
+	7900 1700 7800 1700
+Wire Wire Line
+	7800 1800 7900 1800
+Wire Wire Line
+	7900 1900 7800 1900
+Wire Wire Line
+	7800 2000 7900 2000
+Wire Wire Line
+	7900 2100 7800 2100
+Wire Wire Line
+	7800 2200 7900 2200
+Wire Wire Line
+	7900 2300 7800 2300
+Wire Wire Line
+	7900 2400 7800 2400
+Wire Wire Line
+	7800 2500 7900 2500
+Wire Wire Line
+	7900 2600 7800 2600
+Wire Wire Line
+	7800 2700 7900 2700
+Wire Wire Line
+	7900 2800 7800 2800
+Wire Wire Line
+	7800 2900 7900 2900
+Wire Wire Line
+	7900 3000 7800 3000
+Wire Wire Line
+	7800 3100 7900 3100
+Wire Wire Line
+	7900 3200 7800 3200
+Wire Wire Line
+	7800 3300 7900 3300
+Wire Wire Line
+	7900 3400 7800 3400
+Wire Wire Line
+	7800 3500 7900 3500
+Wire Wire Line
+	7800 3600 7900 3600
+Wire Wire Line
+	7900 3700 7800 3700
+Wire Wire Line
+	7800 3800 7900 3800
+Wire Wire Line
+	7900 3900 7800 3900
+Wire Wire Line
+	7800 4000 7900 4000
+Wire Wire Line
+	9300 4000 9400 4000
+Wire Wire Line
+	9400 3900 9300 3900
+Wire Wire Line
+	9300 3800 9400 3800
+Wire Wire Line
+	9400 3700 9300 3700
+Wire Wire Line
+	9300 3600 9400 3600
+Wire Wire Line
+	9400 3500 9300 3500
+Wire Wire Line
+	9300 3400 9400 3400
+Wire Wire Line
+	9400 3300 9300 3300
+Wire Wire Line
+	9300 3200 9400 3200
+Wire Wire Line
+	9400 3100 9300 3100
+Wire Wire Line
+	9300 3000 9400 3000
+Wire Wire Line
+	9400 2900 9300 2900
+Wire Wire Line
+	9300 2800 9400 2800
+Wire Wire Line
+	9400 2700 9300 2700
+Wire Wire Line
+	9300 2600 9400 2600
+Wire Wire Line
+	9400 2500 9300 2500
+Wire Wire Line
+	9300 2400 9400 2400
+Wire Wire Line
+	9400 2300 9300 2300
+Wire Wire Line
+	9300 2200 9400 2200
+Wire Wire Line
+	9400 2100 9300 2100
+Wire Wire Line
+	9300 2000 9400 2000
+Wire Wire Line
+	9300 1900 9400 1900
+Wire Wire Line
+	9400 1800 9300 1800
+Wire Wire Line
+	9300 1700 9400 1700
+Wire Wire Line
+	9400 1600 9300 1600
+Wire Wire Line
+	9300 1500 9400 1500
+Wire Wire Line
+	9400 1400 9300 1400
 $EndSCHEMATC
