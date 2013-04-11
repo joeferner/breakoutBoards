@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 10 Apr 2013 11:58:25 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 11 Apr 2013 02:19:01 PM EDT
 
 BeginCmp
 TimeStamp = /5165D24B;
@@ -46,7 +46,7 @@ BeginCmp
 TimeStamp = /5166346F;
 Reference = J7;
 ValeurCmp = AVRISP;
-IdModule  = AVR-ICSP;
+IdModule  = AVR-ICSP-NOOUTLINE;
 EndCmp
 
 BeginCmp
@@ -57,10 +57,80 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /5166D21B;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1X1;
+EndCmp
+
+BeginCmp
 TimeStamp = /5165D90E;
 Reference = P2;
 ValeurCmp = VGA;
 IdModule  = VGA_RIGHT_ANGLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166D5B0;
+Reference = P3;
+ValeurCmp = JTAG10;
+IdModule  = VASCH5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166BBDD;
+Reference = P4;
+ValeurCmp = JTAG;
+IdModule  = VASCH10x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166C633;
+Reference = P5;
+ValeurCmp = BNC;
+IdModule  = BNC_Socket_TYCO-AMP_LargePads_RevB_20130411;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166C640;
+Reference = P6;
+ValeurCmp = BNCBREAKOUT;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516705E3;
+Reference = P7;
+ValeurCmp = CONN_14;
+IdModule  = PIN_ARRAY_14X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516705D6;
+Reference = P8;
+ValeurCmp = CONN_14;
+IdModule  = PIN_ARRAY_14X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166CAEF;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166CAE9;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5166CAD0;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -75,6 +145,13 @@ TimeStamp = /51660D6D;
 Reference = U2;
 ValeurCmp = 54PIN;
 IdModule  = TSOP54_0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /516705B3;
+Reference = U3;
+ValeurCmp = 28PIN;
+IdModule  = SO28_BREAKOUT;
 EndCmp
 
 EndListe

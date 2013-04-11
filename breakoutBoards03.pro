@@ -1,11 +1,6 @@
-update=Wed 10 Apr 2013 02:51:18 PM EDT
+update=Thu 11 Apr 2013 02:13:00 PM EDT
 version=1
 last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [eeschema]
@@ -50,14 +45,19 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
+PadDrill="    1.016000"
+PadDrillOvalY="    1.016000"
+PadSizeH="    1.524000"
+PadSizeV="    1.524000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
