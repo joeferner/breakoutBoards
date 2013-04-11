@@ -3,9 +3,9 @@
   (general
     (links 100)
     (no_connects 0)
-    (area 96.116623 99.1964 149.933377 146.5236)
+    (area 94.864178 99.1964 150.555822 147.8086)
     (thickness 1.6)
-    (drawings 5)
+    (drawings 7)
     (tracks 386)
     (zones 0)
     (modules 9)
@@ -57,7 +57,7 @@
     (pad_drill 3.175)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 100 100)
-    (visible_elements FFFFFFBF)
+    (visible_elements FFFFFF3F)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
@@ -1196,7 +1196,7 @@
     )
   )
 
-  (module MOUNTING_HOLE_0.125in (layer F.Cu) (tedit 515F99C4) (tstamp 515F9884)
+  (module MOUNTING_HOLE_0.125in (layer F.Cu) (tedit 5167047B) (tstamp 515F9884)
     (at 102.54 143.18)
     (path /515F9827)
     (fp_text reference M4 (at 1.05 3.825) (layer F.SilkS) hide
@@ -1210,6 +1210,12 @@
     )
   )
 
+  (gr_text v1 (at 122.174 124.714) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text https://github.com/joeferner/breakoutBoards (at 123.952 122.174) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "0.5mm pitch QFP" (at 112.9794 135.3314) (layer F.SilkS)
     (effects (font (thickness 0.1778)) (justify left))
   )
