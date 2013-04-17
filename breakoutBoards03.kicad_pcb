@@ -3,7 +3,7 @@
   (general
     (links 184)
     (no_connects 0)
-    (area 99.949999 99.949999 200.050001 200.050001)
+    (area 99.425 80.805019 203.83754 206.169001)
     (thickness 1.6)
     (drawings 54)
     (tracks 535)
@@ -59,7 +59,7 @@
     (aux_axis_origin 100 100)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 3178497)
+      (layerselection 15761409)
       (usegerberextensions true)
       (excludeedgelayer false)
       (linewidth 152400)
@@ -78,12 +78,12 @@
       (plotothertext true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory /home/jferner/temp/bb))
+      (outputdirectory /home/jferner/dev/breakoutBoards/breakoutBoards03_v1/))
   )
 
   (net 0 "")
