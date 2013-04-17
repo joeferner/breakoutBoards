@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 11 Apr 2013 02:08:16 PM EDT
+EESchema Schematic File Version 2  date Wed 17 Apr 2013 10:49:45 AM EDT
 LIBS:breakoutBoards
 LIBS:breakoutBoards02-cache
 LIBS:userFavorites
@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "11 apr 2013"
+Date "17 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -792,4 +792,49 @@ Wire Wire Line
 	3300 5300 3350 5300
 Wire Wire Line
 	3350 5400 3300 5400
+$Comp
+L CONN_3 K1
+U 1 1 516EB454
+P 9350 5650
+F 0 "K1" V 9300 5650 50  0000 C CNN
+F 1 "CONN_3" V 9400 5650 40  0000 C CNN
+F 2 "~" H 9350 5650 60  0000 C CNN
+F 3 "~" H 9350 5650 60  0000 C CNN
+	1    9350 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K2
+U 1 1 516EB461
+P 11050 5650
+F 0 "K2" V 11000 5650 50  0000 C CNN
+F 1 "CONN_3" V 11100 5650 40  0000 C CNN
+F 2 "~" H 11050 5650 60  0000 C CNN
+F 3 "~" H 11050 5650 60  0000 C CNN
+	1    11050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5550 9750 5550
+Wire Wire Line
+	9750 5650 9700 5650
+Wire Wire Line
+	9700 5750 9750 5750
+Wire Wire Line
+	10650 5550 10700 5550
+Wire Wire Line
+	10700 5650 10650 5650
+Wire Wire Line
+	10650 5750 10700 5750
+$Comp
+L 6PIN U4
+U 1 1 516EBE8E
+P 10250 5650
+F 0 "U4" H 10050 5900 60  0000 L CNN
+F 1 "6PIN" H 10050 5400 60  0000 L CNN
+F 2 "~" H 10800 5900 60  0000 C CNN
+F 3 "~" H 10800 5900 60  0000 C CNN
+	1    10250 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

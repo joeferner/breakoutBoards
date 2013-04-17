@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Thu 11 Apr 2013 06:21:31 PM GMT
+EESchema-LIBRARY Version 2.3  Date: Wed 17 Apr 2013 06:44:16 PM GMT
 #encoding utf-8
 #
 # CPsmall
@@ -547,6 +547,19 @@ X ~ 2 -200 -200 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# CONN_1
+# URL: http://kicadcloud.com/schematicSymbol/739
+#
+DEF ~CONN_1 P 0 30 N N 1 F N
+F0 "P" 80 0 40 H V L CNN
+F1 "CONN_1" 0 55 30 H I C CNN
+DRAW
+C 0 0 31 0 1 0 N
+P 2 0 1 0  -30 0  -50 0 N
+X 1 1 -150 0 100 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # DIODESCH
 # URL: http://kicadcloud.com/schematicSymbol/882
 #
@@ -787,6 +800,21 @@ DRAW
 P 8 0 1 0  0 -60  -35 -50  30 -30  -35 -10  30 10  -35 30  30 50  0 60 N
 X ~ 1 0 100 40 D 40 40 1 1 P
 X ~ 2 0 -100 40 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VREG_VINCENTER
+# URL: http://kicadcloud.com/schematicSymbol/4335
+#
+DEF VREG_VINCENTER U 0 30 Y Y 1 F N
+F0 "U" 150 -196 60 H V C CNN
+F1 "VREG_VINCENTER" 0 200 60 H V C CNN
+DRAW
+S -200 -150 200 150 0 1 0 N
+X GND 1 0 -250 100 U 40 40 1 1 I
+X VI 2 -400 50 200 R 40 40 1 1 I
+X VO 3 400 50 200 L 40 40 1 1 w
+X TAB 4 -400 -50 200 R 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #

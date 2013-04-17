@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 11 Apr 2013 02:19:01 PM EDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 17 Apr 2013 10:48:42 AM EDT
 
 BeginCmp
 TimeStamp = /5165D24B;
@@ -53,6 +53,20 @@ BeginCmp
 TimeStamp = /516636B0;
 Reference = J8;
 ValeurCmp = CONN_3X1;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516EB454;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /516EB461;
+Reference = K2;
+ValeurCmp = CONN_3;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
@@ -152,6 +166,13 @@ TimeStamp = /516705B3;
 Reference = U3;
 ValeurCmp = 28PIN;
 IdModule  = SO28_BREAKOUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /516EBE8E;
+Reference = U4;
+ValeurCmp = 6PIN;
+IdModule  = tsot-6;
 EndCmp
 
 EndListe
