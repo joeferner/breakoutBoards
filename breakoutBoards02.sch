@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Apr 2013 11:25:40 AM EDT
+EESchema Schematic File Version 2  date Fri 26 Apr 2013 11:29:33 AM EDT
 LIBS:power
 LIBS:breakoutBoards
 LIBS:userFavorites
@@ -10,7 +10,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 apr 2013"
+Date "26 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -225,9 +225,10 @@ L EEPROM_SPI U1
 U 1 1 51635A07
 P 2900 4550
 F 0 "U1" H 2700 4850 60  0000 L CNN
-F 1 "EEPROM_SPI" H 2700 4250 60  0000 L CNN
+F 1 "93LC56BT-I/OT" H 2700 4250 60  0000 L CNN
 F 2 "" H 3150 4150 60  0000 C CNN
 F 3 "" H 3150 4150 60  0000 C CNN
+F 4 "93LC56BT-I/OT" H 2900 4550 60  0001 C CNN "MfgPartNumber"
 	1    2900 4550
 	1    0    0    -1  
 $EndComp
@@ -1065,6 +1066,7 @@ F 0 "D1" V 4650 3600 60  0000 C CNN
 F 1 "PGB1010603" V 4900 3600 60  0001 C CNN
 F 2 "" H 4750 3600 60  0000 C CNN
 F 3 "" H 4750 3600 60  0000 C CNN
+F 4 "PGB1010603NRHF" H 4750 3600 60  0001 C CNN "MfgPartNumber"
 	1    4750 3600
 	1    0    0    -1  
 $EndComp
@@ -1076,6 +1078,7 @@ F 0 "D2" V 4900 3600 60  0000 C CNN
 F 1 "PGB1010603" V 5150 3600 60  0001 C CNN
 F 2 "" H 5000 3600 60  0000 C CNN
 F 3 "" H 5000 3600 60  0000 C CNN
+F 4 "PGB1010603NRHF" H 5000 3600 60  0001 C CNN "MfgPartNumber"
 	1    5000 3600
 	1    0    0    -1  
 $EndComp
