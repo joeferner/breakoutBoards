@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 04 Jun 2013 08:32:30 PM EDT
+
+BeginCmp
+TimeStamp = /51ADE63D;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE64D;
+Reference = C2;
+ValeurCmp = 4.7uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE2D3;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE24A;
+Reference = C4;
+ValeurCmp = 47pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE54E;
+Reference = C5;
+ValeurCmp = 47pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADFC86;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE090F;
+Reference = C7;
+ValeurCmp = 12pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE091A;
+Reference = C8;
+ValeurCmp = 12pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE7BF3;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE7BF9;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE7C05;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE259;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE2C6;
+Reference = FB1;
+ValeurCmp = FERRITEBEAD;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE22C;
+Reference = J1;
+ValeurCmp = USB_2;
+IdModule  = USBMICRO;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADFEF3;
+Reference = J2;
+ValeurCmp = CONN_10X1;
+IdModule  = PIN_ARRAY_10X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE0D9C;
+Reference = M1;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE0DA9;
+Reference = M2;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE0DAF;
+Reference = M3;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE0DB5;
+Reference = M4;
+ValeurCmp = Mounting Hole;
+IdModule  = MOUNTING_HOLE_0.125in;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE23B;
+Reference = R1;
+ValeurCmp = 27R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADE4E9;
+Reference = R2;
+ValeurCmp = 27R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADFDBE;
+Reference = R3;
+ValeurCmp = 27R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE86F7;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE74FA;
+Reference = U1;
+ValeurCmp = VREG_VOUTCENTER;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /51ADFA04;
+Reference = U2;
+ValeurCmp = FT312D;
+IdModule  = QFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AE081C;
+Reference = X1;
+ValeurCmp = 12MHz;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe

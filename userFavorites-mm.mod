@@ -1,32 +1,30 @@
-PCBNEW-LibModule-V1  04/17/2013 18:44:16
-#encoding utf-8
+PCBNEW-LibModule-V1  Tue 04 Jun 2013 07:34:21 PM EDT
+# encoding utf-8
 Units mm
 $INDEX
 BATTERY-COIN
 CAP-CAN-5mm
+D5
 LED-1206
 MRF24WB0Mx
 PIN_ARRAY_20X1
 POWER-IN-JACK-PMS
+QFP32
 QFP48
+R5
 SDCARD
 SOT223-132
 SOT223-321
 SWITCH_TACTILE
 USBMICRO
 VASCH10x2
-D5
-R5
 $EndINDEX
-#
-# URL: http://kicadcloud.com/pcbModule/19
-#
 $MODULE BATTERY-COIN
 Po 0 0 0 15 50E10F22 00000000 ~~
 Li BATTERY-COIN
 Kw battery coin
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 0 7.874 1 1 0 0.15 N V 21 N "BATTERY-COIN"
 T1 0 -6.858 1 1 0 0.15 N V 21 N "VAL**"
@@ -68,14 +66,11 @@ Ne 0 ""
 Po -7.874 0
 $EndPAD
 $EndMODULE BATTERY-COIN
-#
-# URL: http://kicadcloud.com/pcbModule/20
-#
 $MODULE CAP-CAN-5mm
 Po 0 0 0 15 50CE713E 00000000 ~~
 Li CAP-CAN-5mm
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 0.508 4.318 1 1 0 0.15 N V 21 N "CAP5mm"
 T1 -0.762 -3.81 1 1 0 0.15 N V 21 N "VAL**"
@@ -101,14 +96,52 @@ Ne 0 ""
 Po 0.01 -1.85
 $EndPAD
 $EndMODULE CAP-CAN-5mm
-#
-# URL: http://kicadcloud.com/pcbModule/21
-#
+$MODULE D5
+Po 0 0 0 15 00200000 00000000 ~~
+Li D5
+Cd Diode 5 pas
+Kw DIODE DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1.524 1.016 0 0.3048 N V 21 N "D5"
+T1 -0.254 0 1.524 1.016 0 0.3048 N I 21 N "D***"
+DS 6.35 0 5.08 0 0.3048 21
+DS 5.08 0 5.08 -1.27 0.3048 21
+DS 5.08 -1.27 -5.08 -1.27 0.3048 21
+DS -5.08 -1.27 -5.08 0 0.3048 21
+DS -5.08 0 -6.35 0 0.3048 21
+DS -5.08 0 -5.08 1.27 0.3048 21
+DS -5.08 1.27 5.08 1.27 0.3048 21
+DS 5.08 1.27 5.08 0 0.3048 21
+DS 3.81 -1.27 3.81 1.27 0.3048 21
+DS 4.064 -1.27 4.064 1.27 0.3048 21
+$PAD
+Sh "1" C 1.778 1.778 0 0 0
+Dr 1.143 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" R 1.778 1.778 0 0 0
+Dr 1.143 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$SHAPE3D
+Na "discret/diode.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE D5
 $MODULE LED-1206
 Po 0 0 0 15 50CE7801 00000000 ~~
 Li LED-1206
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 1.5 2.2 1 1 0 0.15 N V 21 N "LED-1206"
 T1 -0.2 -1.9 1 1 0 0.15 N V 21 N "VAL**"
@@ -133,14 +166,11 @@ Ne 0 ""
 Po -1.525 0
 $EndPAD
 $EndMODULE LED-1206
-#
-# URL: http://kicadcloud.com/pcbModule/22
-#
 $MODULE MRF24WB0Mx
 Po 0 0 0 15 50D12182 00000000 ~~
 Li MRF24WB0Mx
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 0 16.51 1 1 0 0.15 N V 21 N "MRF24WB0Mx"
 T1 0 -16.51 1 1 0 0.15 N V 21 N "VAL**"
@@ -406,14 +436,11 @@ Ne 0 ""
 Po 10.275 -13.77
 $EndPAD
 $EndMODULE MRF24WB0Mx
-#
-# URL: http://kicadcloud.com/pcbModule/23
-#
 $MODULE PIN_ARRAY_20X1
 Po 0 0 0 15 50D11444 00000000 ~~
 Li PIN_ARRAY_20X1
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 0.254 -2.032 1 1 0 0.15 N V 21 N "PIN_ARRAY_20X1"
 T1 0.762 2.286 1 1 0 0.15 N V 21 N "VAL**"
@@ -562,14 +589,11 @@ Ne 0 ""
 Po 25.4 0
 $EndPAD
 $EndMODULE PIN_ARRAY_20X1
-#
-# URL: http://kicadcloud.com/pcbModule/24
-#
 $MODULE POWER-IN-JACK-PMS
 Po 0 0 0 15 50EEC428 00000000 ~~
 Li POWER-IN-JACK-PMS
 Sc 0
-AR
+AR 
 Op 0 0 0
 At VIRTUAL
 T0 2.8829 2.67462 1.27 1.27 0 0.0889 N V 20 N "1"
@@ -609,15 +633,252 @@ Ne 0 ""
 Po -0.49784 -2.80924
 $EndPAD
 $EndMODULE POWER-IN-JACK-PMS
-#
-# URL: http://kicadcloud.com/pcbModule/25
-#
+$MODULE QFP32
+Po 0 0 0 15 51AE797A 00000000 ~~
+Li QFP32
+Kw TQFP48 QFP48
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.2
+T0 0 6.5 1 1 0 0.15 N V 21 N "QFP32"
+T1 0 -6 1 1 0 0.15 N V 21 N "VAL**"
+DC -2.5 2.5 -2 2.5 0.15 21
+DS -3.4 -3.4 3.4 -3.4 0.15 21
+DS 3.4 -3.4 3.4 3.4 0.15 21
+DS 3.4 3.4 -3.4 3.4 0.15 21
+DS -3.4 3.4 -3.4 -3.4 0.15 21
+$PAD
+Sh "1" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 4.2
+$EndPAD
+$PAD
+Sh "2" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 4.2
+$EndPAD
+$PAD
+Sh "3" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 4.2
+$EndPAD
+$PAD
+Sh "4" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 4.2
+$EndPAD
+$PAD
+Sh "5" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 4.2
+$EndPAD
+$PAD
+Sh "6" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 4.2
+$EndPAD
+$PAD
+Sh "7" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 4.2
+$EndPAD
+$PAD
+Sh "8" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 4.2
+$EndPAD
+$PAD
+Sh "9" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 2.8
+$EndPAD
+$PAD
+Sh "10" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 2
+$EndPAD
+$PAD
+Sh "11" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 1.2
+$EndPAD
+$PAD
+Sh "12" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 0.4
+$EndPAD
+$PAD
+Sh "13" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -0.4
+$EndPAD
+$PAD
+Sh "14" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -1.2
+$EndPAD
+$PAD
+Sh "15" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -2
+$EndPAD
+$PAD
+Sh "16" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -2.8
+$EndPAD
+$PAD
+Sh "17" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 -4.2
+$EndPAD
+$PAD
+Sh "18" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -4.2
+$EndPAD
+$PAD
+Sh "19" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 -4.2
+$EndPAD
+$PAD
+Sh "20" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 -4.2
+$EndPAD
+$PAD
+Sh "21" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 -4.2
+$EndPAD
+$PAD
+Sh "22" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 -4.2
+$EndPAD
+$PAD
+Sh "23" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -4.2
+$EndPAD
+$PAD
+Sh "24" R 0.3 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 -4.2
+$EndPAD
+$PAD
+Sh "25" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -2.8
+$EndPAD
+$PAD
+Sh "26" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -2
+$EndPAD
+$PAD
+Sh "27" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -1.2
+$EndPAD
+$PAD
+Sh "28" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -0.4
+$EndPAD
+$PAD
+Sh "29" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 0.4
+$EndPAD
+$PAD
+Sh "30" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 1.2
+$EndPAD
+$PAD
+Sh "31" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 2
+$EndPAD
+$PAD
+Sh "32" R 1.2 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 2.8
+$EndPAD
+$EndMODULE QFP32
 $MODULE QFP48
 Po 0 0 0 15 50D12A5A 00000000 ~~
 Li QFP48
 Kw TQFP48 QFP48
 Sc 0
-AR
+AR 
 Op 0 0 0
 .LocalClearance 0.2
 T0 0 6.5 1 1 0 0.15 N V 21 N "QFP48"
@@ -964,14 +1225,49 @@ Ne 0 ""
 Po -4.25 2.75
 $EndPAD
 $EndMODULE QFP48
-#
-# URL: http://kicadcloud.com/pcbModule/26
-#
+$MODULE R5
+Po 0 0 0 15 00200000 00000000 ~~
+Li R5
+Cd Resistance 5 pas
+Kw R
+Sc 0
+AR 
+Op 0 A 0
+T0 0 0 1.397 1.27 0 0.2032 N V 21 N "R5"
+T1 0 0 1.397 1.27 0 0.2032 N I 21 N "Val*"
+DS -6.35 0 -5.334 0 0.3048 21
+DS 6.35 0 5.334 0 0.3048 21
+DS 5.334 -1.27 5.334 1.27 0.3048 21
+DS 5.334 1.27 -5.334 1.27 0.3048 21
+DS -5.334 1.27 -5.334 -1.27 0.3048 21
+DS -5.334 -1.27 5.334 -1.27 0.3048 21
+DS -5.334 -0.762 -4.826 -1.27 0.3048 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$SHAPE3D
+Na "discret/resistor.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE R5
 $MODULE SDCARD
 Po 0 0 0 15 50D129EE 00000000 ~~
 Li SDCARD
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 3 13 1 1 0 0.15 N V 21 N "SDCARD"
 T1 -6 13 1 1 0 0.15 N V 21 N "VAL**"
@@ -1066,16 +1362,13 @@ Ne 0 ""
 Po -2.66 10.3
 $EndPAD
 $EndMODULE SDCARD
-#
-# URL: http://kicadcloud.com/pcbModule/27
-#
 $MODULE SOT223-132
 Po 0 0 0 15 50D26E4A 00000000 ~~
 Li SOT223-132
 Cd module CMS SOT223 4 pins
 Kw CMS SOT
 Sc 0
-AR
+AR 
 Op 0 0 0
 At SMD
 T0 0 -0.762 1.016 1.016 0 0.2032 N V 21 N "SOT223"
@@ -1123,16 +1416,13 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SOT223-132
-#
-# URL: http://kicadcloud.com/pcbModule/28
-#
 $MODULE SOT223-321
 Po 0 0 0 15 50D26E4A 00000000 ~~
 Li SOT223-321
 Cd module CMS SOT223 4 pins
 Kw CMS SOT
 Sc 0
-AR
+AR 
 Op 0 0 0
 At SMD
 T0 0 -0.762 1.016 1.016 0 0.2032 N V 21 N "SOT223"
@@ -1180,14 +1470,11 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SOT223-321
-#
-# URL: http://kicadcloud.com/pcbModule/29
-#
 $MODULE SWITCH_TACTILE
 Po 0 0 0 15 50D116A9 00000000 ~~
 Li SWITCH_TACTILE
 Sc 0
-AR
+AR 
 Op 0 0 0
 T0 0 4 1 1 0 0.15 N V 21 N "SWITCH_TACTILE"
 T1 0 -4 1 1 0 0.15 N V 21 N "VAL**"
@@ -1225,9 +1512,6 @@ Ne 0 ""
 Po 3.25 2.25
 $EndPAD
 $EndMODULE SWITCH_TACTILE
-#
-# URL: http://kicadcloud.com/pcbModule/30
-#
 $MODULE USBMICRO
 Po 0 0 0 15 510B3E1E 00000000 ~~
 Li USBMICRO
@@ -1327,16 +1611,13 @@ Po 1.30048 -2.67462
 .LocalClearance 0.2032
 $EndPAD
 $EndMODULE USBMICRO
-#
-# URL: http://kicadcloud.com/pcbModule/53
-#
 $MODULE VASCH10x2
 Po 0 0 0 15 50EEC511 00000000 ~~
 Li VASCH10x2
 Cd CONNECTOR
 Kw CONNECTOR
 Sc 0
-AR
+AR 
 Op 0 0 0
 At VIRTUAL
 T0 -15.875 -5.715 1.778 1.778 0 0.0889 N V 21 N "P"
@@ -1500,89 +1781,4 @@ Ne 0 ""
 Po 11.43 -1.27
 $EndPAD
 $EndMODULE VASCH10x2
-#
-# URL: http://kicadcloud.com/pcbModule/3355
-#
-$MODULE D5
-Po 0 0 0 15 00200000 00000000 ~~
-Li D5
-Cd Diode 5 pas
-Kw DIODE DEV
-Sc 0
-AR
-Op 0 0 0
-T0 0 0 1.524 1.016 0 0.3048 N V 21 N "D5"
-T1 -0.254 0 1.524 1.016 0 0.3048 N I 21 N "D***"
-DS 6.35 0 5.08 0 0.3048 21
-DS 5.08 0 5.08 -1.27 0.3048 21
-DS 5.08 -1.27 -5.08 -1.27 0.3048 21
-DS -5.08 -1.27 -5.08 0 0.3048 21
-DS -5.08 0 -6.35 0 0.3048 21
-DS -5.08 0 -5.08 1.27 0.3048 21
-DS -5.08 1.27 5.08 1.27 0.3048 21
-DS 5.08 1.27 5.08 0 0.3048 21
-DS 3.81 -1.27 3.81 1.27 0.3048 21
-DS 4.064 -1.27 4.064 1.27 0.3048 21
-$PAD
-Sh "1" C 1.778 1.778 0 0 0
-Dr 1.143 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -6.35 0
-$EndPAD
-$PAD
-Sh "2" R 1.778 1.778 0 0 0
-Dr 1.143 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 6.35 0
-$EndPAD
-$SHAPE3D
-Na "discret/diode.wrl"
-Sc 0.5 0.5 0.5
-Of 0 0 0
-Ro 0 0 0
-$EndSHAPE3D
-$EndMODULE D5
-#
-# URL: http://kicadcloud.com/pcbModule/3387
-#
-$MODULE R5
-Po 0 0 0 15 00200000 00000000 ~~
-Li R5
-Cd Resistance 5 pas
-Kw R
-Sc 0
-AR
-Op 0 A 0
-T0 0 0 1.397 1.27 0 0.2032 N V 21 N "R5"
-T1 0 0 1.397 1.27 0 0.2032 N I 21 N "Val*"
-DS -6.35 0 -5.334 0 0.3048 21
-DS 6.35 0 5.334 0 0.3048 21
-DS 5.334 -1.27 5.334 1.27 0.3048 21
-DS 5.334 1.27 -5.334 1.27 0.3048 21
-DS -5.334 1.27 -5.334 -1.27 0.3048 21
-DS -5.334 -1.27 5.334 -1.27 0.3048 21
-DS -5.334 -0.762 -4.826 -1.27 0.3048 21
-$PAD
-Sh "1" C 1.524 1.524 0 0 0
-Dr 0.8128 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -6.35 0
-$EndPAD
-$PAD
-Sh "2" C 1.524 1.524 0 0 0
-Dr 0.8128 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 6.35 0
-$EndPAD
-$SHAPE3D
-Na "discret/resistor.wrl"
-Sc 0.5 0.5 0.5
-Of 0 0 0
-Ro 0 0 0
-$EndSHAPE3D
-$EndMODULE R5
 $EndLIBRARY
