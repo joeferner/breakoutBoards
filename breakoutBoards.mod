@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 06 Jun 2013 10:15:53 PM EDT
+PCBNEW-LibModule-V1  Sat 08 Jun 2013 11:07:30 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -18,6 +18,7 @@ PIN_ARRAY_27X1
 PIN_ARRAY_8X1
 QFN16-0.5-3X3
 QFP0.5mm
+QFP32
 SO28_BREAKOUT
 TSOP54_0.8mm
 TSSOP0.65
@@ -2327,6 +2328,246 @@ Ne 49 "N-0000052"
 Po 7.9 6.25
 $EndPAD
 $EndMODULE QFP0.5mm
+$MODULE QFP32
+Po 0 0 0 15 51B3F16F 00000000 ~~
+Li QFP32
+Kw TQFP48 QFP48
+Sc 0
+AR 
+Op 0 0 0
+.LocalClearance 0.2
+T0 0 6.5 1 1 0 0.15 N V 21 N "QFP32"
+T1 0 -6 1 1 0 0.15 N V 21 N "VAL**"
+DC -2.5 2.5 -2 2.5 0.15 21
+DS -3.4 -3.4 3.4 -3.4 0.15 21
+DS 3.4 -3.4 3.4 3.4 0.15 21
+DS 3.4 3.4 -3.4 3.4 0.15 21
+DS -3.4 3.4 -3.4 -3.4 0.15 21
+$PAD
+Sh "1" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 4.2
+$EndPAD
+$PAD
+Sh "2" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 4.2
+$EndPAD
+$PAD
+Sh "3" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 4.2
+$EndPAD
+$PAD
+Sh "4" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 4.2
+$EndPAD
+$PAD
+Sh "5" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 4.2
+$EndPAD
+$PAD
+Sh "6" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 4.2
+$EndPAD
+$PAD
+Sh "7" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 4.2
+$EndPAD
+$PAD
+Sh "8" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 4.2
+$EndPAD
+$PAD
+Sh "9" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 2.8
+$EndPAD
+$PAD
+Sh "10" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 2
+$EndPAD
+$PAD
+Sh "11" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 1.2
+$EndPAD
+$PAD
+Sh "12" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 0.4
+$EndPAD
+$PAD
+Sh "13" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -0.4
+$EndPAD
+$PAD
+Sh "14" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -1.2
+$EndPAD
+$PAD
+Sh "15" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -2
+$EndPAD
+$PAD
+Sh "16" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -2.8
+$EndPAD
+$PAD
+Sh "17" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.8 -4.2
+$EndPAD
+$PAD
+Sh "18" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 -4.2
+$EndPAD
+$PAD
+Sh "19" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.2 -4.2
+$EndPAD
+$PAD
+Sh "20" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.4 -4.2
+$EndPAD
+$PAD
+Sh "21" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.4 -4.2
+$EndPAD
+$PAD
+Sh "22" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.2 -4.2
+$EndPAD
+$PAD
+Sh "23" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 -4.2
+$EndPAD
+$PAD
+Sh "24" R 0.56 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8 -4.2
+$EndPAD
+$PAD
+Sh "25" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -2.8
+$EndPAD
+$PAD
+Sh "26" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -2
+$EndPAD
+$PAD
+Sh "27" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -1.2
+$EndPAD
+$PAD
+Sh "28" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 -0.4
+$EndPAD
+$PAD
+Sh "29" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 0.4
+$EndPAD
+$PAD
+Sh "30" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 1.2
+$EndPAD
+$PAD
+Sh "31" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 2
+$EndPAD
+$PAD
+Sh "32" R 1.6 0.56 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.2 2.8
+$EndPAD
+$EndMODULE QFP32
 $MODULE SO28_BREAKOUT
 Po 0 0 0 15 5166FECB 00000000 ~~
 Li SO28_BREAKOUT
