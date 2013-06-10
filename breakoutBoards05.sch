@@ -73,24 +73,6 @@ F 3 "" H 2800 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 1750 3650 1750
-Wire Wire Line
-	2500 1850 3650 1850
-Wire Wire Line
-	2500 1950 3650 1950
-Wire Wire Line
-	2500 2150 2600 2150
-Wire Wire Line
-	2600 2150 2600 2050
-Wire Wire Line
-	2600 2050 3650 2050
-Wire Wire Line
-	2500 2250 2700 2250
-Wire Wire Line
-	2700 2250 2700 2150
-Wire Wire Line
-	2700 2150 3650 2150
-Wire Wire Line
 	3650 2250 3050 2250
 Wire Wire Line
 	3050 2250 3050 1000
@@ -203,21 +185,17 @@ Wire Wire Line
 Connection ~ 1600 1000
 Text Label 3200 2350 0    60   ~ 0
 ACCGND
-Wire Wire Line
-	2600 1300 2600 1750
 Connection ~ 2600 1750
-Wire Wire Line
-	2800 1300 2800 1850
 Connection ~ 2800 1850
-Text Label 3200 1750 0    60   ~ 0
+Text Label 3200 2150 0    60   ~ 0
 ACCSCL
-Text Label 3200 1850 0    60   ~ 0
+Text Label 3200 2050 0    60   ~ 0
 ACCSDA
 Text Label 3200 1950 0    60   ~ 0
 ACCSA0
-Text Label 3200 2050 0    60   ~ 0
+Text Label 3200 1750 0    60   ~ 0
 ACCINT1
-Text Label 3200 2150 0    60   ~ 0
+Text Label 3200 1850 0    60   ~ 0
 ACCINT2
 Text Label 3200 2250 0    60   ~ 0
 ACCVDD
@@ -429,4 +407,200 @@ Wire Wire Line
 	7200 2250 6850 2250
 Wire Wire Line
 	6850 2150 8400 2150
+$Comp
+L 16PIN U3
+U 1 1 51B524A1
+P 2650 5450
+F 0 "U3" H 2250 6000 60  0000 L CNN
+F 1 "16PIN" H 2250 5000 60  0000 L CNN
+F 2 "" H 3000 6000 60  0000 C CNN
+F 3 "" H 3000 6000 60  0000 C CNN
+	1    2650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8X1 J4
+U 1 1 51B524B0
+P 4350 5450
+F 0 "J4" H 4350 6000 60  0000 L CNN
+F 1 "CONN_8X1" H 4350 5000 60  0000 L CNN
+F 2 "" H 4350 5000 60  0000 C CNN
+F 3 "" H 4350 5000 60  0000 C CNN
+	1    4350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8X1 J3
+U 1 1 51B524BD
+P 1050 5450
+F 0 "J3" H 1050 6000 60  0000 L CNN
+F 1 "CONN_8X1" H 1050 5000 60  0000 L CNN
+F 2 "" H 1050 5000 60  0000 C CNN
+F 3 "" H 1050 5000 60  0000 C CNN
+	1    1050 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5050 1950 5050
+Wire Wire Line
+	1950 5150 1350 5150
+Wire Wire Line
+	1350 5250 1950 5250
+Wire Wire Line
+	1350 5350 1950 5350
+Wire Wire Line
+	1350 5450 1950 5450
+Wire Wire Line
+	1350 5550 1950 5550
+Wire Wire Line
+	1350 5650 1950 5650
+Wire Wire Line
+	1350 5750 1950 5750
+Wire Wire Line
+	3350 5750 4050 5750
+Wire Wire Line
+	4050 5650 3350 5650
+Wire Wire Line
+	3350 5550 4050 5550
+Wire Wire Line
+	4050 5450 3350 5450
+Wire Wire Line
+	3350 5350 4050 5350
+Wire Wire Line
+	4050 5250 3350 5250
+Wire Wire Line
+	3350 5150 4050 5150
+Wire Wire Line
+	4050 5050 3350 5050
+Text Label 1400 5050 0    60   ~ 0
+QFN1
+Text Label 1400 5150 0    60   ~ 0
+QFN2
+Text Label 1400 5250 0    60   ~ 0
+QFN3
+Text Label 1400 5350 0    60   ~ 0
+QFN4
+Text Label 1400 5450 0    60   ~ 0
+QFN5
+Text Label 1400 5550 0    60   ~ 0
+QFN6
+Text Label 1400 5650 0    60   ~ 0
+QFN7
+Text Label 1400 5750 0    60   ~ 0
+QFN8
+Text Label 3450 5750 0    60   ~ 0
+QFN9
+Text Label 3450 5650 0    60   ~ 0
+QFN10
+Text Label 3450 5550 0    60   ~ 0
+QFN11
+Text Label 3450 5450 0    60   ~ 0
+QFN12
+Text Label 3450 5350 0    60   ~ 0
+QFN13
+Text Label 3450 5250 0    60   ~ 0
+QFN14
+Text Label 3450 5150 0    60   ~ 0
+QFN15
+Text Label 3450 5050 0    60   ~ 0
+QFN16
+Wire Wire Line
+	2600 1750 2500 1750
+Wire Wire Line
+	2800 1850 2500 1850
+Wire Wire Line
+	2500 1950 3650 1950
+Wire Wire Line
+	2500 2150 2700 2150
+Wire Wire Line
+	2700 2150 2700 1750
+Wire Wire Line
+	2700 1750 3650 1750
+Wire Wire Line
+	2500 2250 2650 2250
+Wire Wire Line
+	2650 2250 2650 2200
+Wire Wire Line
+	2650 2200 3100 2200
+Wire Wire Line
+	3100 2200 3100 1850
+Wire Wire Line
+	3100 1850 3650 1850
+Wire Wire Line
+	2600 1300 2600 2100
+Wire Wire Line
+	2800 1300 2800 2050
+Wire Wire Line
+	3650 2150 2750 2150
+Wire Wire Line
+	2750 2150 2750 2100
+Wire Wire Line
+	2750 2100 2600 2100
+Wire Wire Line
+	2800 2050 3650 2050
+$Comp
+L 16PIN U4
+U 1 1 51B539A6
+P 7000 5450
+F 0 "U4" H 6600 6000 60  0000 L CNN
+F 1 "16PIN" H 6600 5000 60  0000 L CNN
+F 2 "" H 7350 6000 60  0000 C CNN
+F 3 "" H 7350 6000 60  0000 C CNN
+	1    7000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8X1 J6
+U 1 1 51B539AC
+P 8200 5450
+F 0 "J6" H 8200 6000 60  0000 L CNN
+F 1 "CONN_8X1" H 8200 5000 60  0000 L CNN
+F 2 "" H 8200 5000 60  0000 C CNN
+F 3 "" H 8200 5000 60  0000 C CNN
+	1    8200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8X1 J5
+U 1 1 51B539B2
+P 5850 5450
+F 0 "J5" H 5850 6000 60  0000 L CNN
+F 1 "CONN_8X1" H 5850 5000 60  0000 L CNN
+F 2 "" H 5850 5000 60  0000 C CNN
+F 3 "" H 5850 5000 60  0000 C CNN
+	1    5850 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5050 6300 5050
+Wire Wire Line
+	6300 5150 6150 5150
+Wire Wire Line
+	6150 5250 6300 5250
+Wire Wire Line
+	6300 5350 6150 5350
+Wire Wire Line
+	6150 5450 6300 5450
+Wire Wire Line
+	6300 5550 6150 5550
+Wire Wire Line
+	6150 5650 6300 5650
+Wire Wire Line
+	6300 5750 6150 5750
+Wire Wire Line
+	7700 5050 7900 5050
+Wire Wire Line
+	7900 5150 7700 5150
+Wire Wire Line
+	7700 5250 7900 5250
+Wire Wire Line
+	7900 5350 7700 5350
+Wire Wire Line
+	7700 5450 7900 5450
+Wire Wire Line
+	7900 5550 7700 5550
+Wire Wire Line
+	7700 5650 7900 5650
+Wire Wire Line
+	7900 5750 7700 5750
 $EndSCHEMATC
