@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 203.118778 121.156 251.241222 160.206266)
     (thickness 1.6)
-    (drawings 48)
+    (drawings 49)
     (tracks 153)
     (zones 0)
     (modules 26)
@@ -1082,6 +1082,9 @@
     )
   )
 
+  (gr_text USBERR (at 241.9 130.5 90) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
   (gr_text 2013-06-04 (at 219.202 152.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
